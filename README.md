@@ -1,5 +1,5 @@
-# BugTracker
-BugTracker is a web application for tracking and managing software bugs. It provides a simple and intuitive interface for reporting, updating, and resolving bugs.
+# BugTracker_v1
+BugTracker (version 1) is a web application for tracking and managing software bugs. It provides a simple and intuitive interface for reporting, updating, and resolving bugs.
 
 ## Features
 * User authentication and authorization
