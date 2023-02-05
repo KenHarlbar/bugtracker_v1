@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "bugtracker"
+version = "0.1.0"
+description = "An app that track bugs in projects"
+authors = ["kenharlbar <kenharlbar@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = {extras = ["all"], version = "^0.89.1"}
+SQLAlchemy = "^2.0.1"
+uvicorn = "^0.20.0"
+psycopg2 = "^2.9.5"
+mypy = "^0.991"
+pydantic = "^1.10.4"
+python-multipart = "^0.0.5"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
